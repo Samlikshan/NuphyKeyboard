@@ -1,0 +1,351 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.instagram {
+    background-image: linear-gradient(to right, #00deb0 0%, #1471f2 100%);
+    width: 100%;
+    height: 28px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.instagram a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-family: roboto condensed;
+    font-size: 12px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 25px rgba(0 0 0 / 10%);
+    display: flex;
+}
+
+.logo-img {
+    width: 25%;
+}
+
+.nav-txt {
+    width: 50%;
+}
+
+.navbar a .logo-img {
+    padding-top: 13px;
+    padding-left: 39px;
+    width: 87px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto condensed';
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 18px;
+    transition: border bottom ease 0.5s;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.navbar .icons {
+    width: 25%;
+}
+
+.hero {
+    position: relative;
+    background-color: #efefef;
+    margin: 40px;
+    width: 95%;
+    height: 800px;
+    box-shadow: 0 0 25px rgba(41, 37, 37, 0.1);
+    border-radius: 15px;
+}
+
+.hero a img{
+    display: block;
+    /* position: absolute; */
+    max-width: 100%;
+    max-width: 100%;
+    /* object-fit: ; */
+    border-radius: 15px;
+    z-index: 5;
+}
+
+.hero-txt-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    
+}
+
+.hero-txt-h1 h1{
+    margin-bottom: 0;
+    padding: 0;
+    color: white;
+    font-family: 'roboto condensed';
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.hero-txt-h2 h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    font-family: 'roboto condensed';
+    font-weight: 400;
+}
+
+
+.hero-txt-wrap .hero-btn{
+    background-color: #00deb0;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    border-radius: 12px;
+    text-shadow: none;
+    margin-left: 35%;
+    align-content: center;
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+.hero-btn a{
+    color: black;
+    font-family: 'roboto condensed';
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+
+.products {
+    position: relative;
+} 
+.products-h {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.products h2 {
+    font-family: 'roboto condensed';
+    font-family: 400;
+    font-size: 33px;
+}
+
+.products-grid {
+    width: 100%;
+    /* height: 500px; */
+    list-style: none;
+    display: flex;
+}
+
+.single-product-grid {
+    margin-top: 20px;
+    width: 300px;
+    /* height: 500px; */
+    list-style: none;
+}
+
+.single-product-grid img {
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    list-style: none;
+}
+
+.grid-txt {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.grid-txt .grid-txt-title{
+    font-size: 16px;
+    font-family: roboto condensed;
+    font-weight: 800;
+    color: #1d1d1d;
+    letter-spacing: .5px;
+    list-style: none;
+    
+}
+
+.grid-txt p {
+    font-family: roboto condensed;
+    font-size: 16px;
+    margin: 2px 0;
+    color: #656565;
+    line-height: 1.25em;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.grid-txt span {
+    color: #1d1d1d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grid-txt .rating {
+    font-family: roboto condensed;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.credibility {
+    /* margin-top: 70px; */
+    margin: 40px;
+}
+.credibility h2 {
+    font-family: 'roboto condensed';
+    font-family: 400;
+    font-size: 33px;
+}
+
+.cred-container {
+    display: flex;
+    gap: 10px;
+    /* margin: 30px; */
+}
+
+.cred-container img {
+    height: 120px;
+    width: 165px;
+    margin: 30px;
+}
+
+.subscription {
+    width: 100%;
+    height: 120px;
+    border-top: 1px solid rgba(215, 215, 215, 0.5);
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+}
+
+.subscription h3 {
+    font-family: roboto condensed;
+    letter-spacing: .2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.subscription form {
+    line-height: 120px;    
+    margin-left: 30px;
+}
+.subscription input {
+    border-radius: 15px 0 0 15px;
+    height: 50px;
+    border:1px solid rgba(215, 215, 215, .5);
+}
+
+
+:placeholder-shown {
+    font-family: roboto condensed;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.subscription button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-family: roboto condensed;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 0 15px 15px 0;
+}
+footer {
+    border-top: 1px solid rgba(215, 215, 215, 0.5);
+}
+
+footer .bottom {
+    padding: 50px 0 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+footer .bottom .footer-description {
+    width: 210px;
+    font: 15px roboto condensed;
+}
+
+footer .bottom .footer-description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .bottom .footer-description ul li{
+    margin-top: 5px;
+    font-family: roboto condensed;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+footer .bottom .footer-description .email {
+    margin: 1px;
+    font-family: roboto condensed;
+    text-decoration: underline;
+    font-size: 17px
+
+}
+
+footer .bottom .footer-description  i {
+    font-size: 23px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+footer .bottom .footer-description img {
+    width: 38px;
+    height: 35px;
+    border: 1px solid rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+}
+
+footer .copyrights {
+    height: 100px;
+    border: 1px solid rgba(215, 215, 215, 0.5); 
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: roboto condensed;
+    line-height: 100px;
+}
+
