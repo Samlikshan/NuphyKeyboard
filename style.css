@@ -146,14 +146,42 @@ body {
     text-transform: uppercase;
     text-decoration: none;  
 }
+.hero .flikkety-btn {
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 18px;
+}
+
+
+
+.hero .flikkety-btn button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid white;
+    margin-right: 5px;
+    box-shadow: 0 0 25px rgba(0 0 0 / 30%);
+    transition: transform 0.3s ease;
+}
+
+.hero .flikkety-btn button:hover {
+    transform: scale(1.1); 
+}
+.hero .flikkety-btn button .flickity-button-icon {
+    width: 13px;
+}
 
 .products {
     position: relative;
 } 
+
 .products-h {
     margin-top: 70px;
     margin-left: 40px;
 }
+
 .products h2 {
     font-family: 'roboto condensed';
     font-family: 400;
@@ -179,6 +207,64 @@ body {
     height: 280px;
     border-radius: 15px;
     list-style: none;
+}
+
+.grid-img-tag {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    float: left;
+    padding: 10px 0 0 15px;
+    width: 60px;
+    height: 40px;
+    background-color: #03c9a0;
+    left: 10px;
+    bottom: 270px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: white;
+}
+
+.grid-img-tag-exp {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    float: left;
+    padding: 10px 0 0 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #f7b700;
+    left: 10px;
+    bottom: 270px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: white;
+}
+
+.grid-product-colors {
+    float: right;
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 25px;
+    margin: 0 0 0 -4px;
+}
+
+.grid-product-colors .grid-product-colors-img {
+    position: relative;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+    right: 40px;
+    bottom: 40px;
+    margin-right: 5px;
 }
 
 .grid-txt {
