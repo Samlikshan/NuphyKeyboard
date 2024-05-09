@@ -200,6 +200,7 @@ body {
     width: 300px;
     /* height: 500px; */
     list-style: none;
+    cursor: pointer;
 }
 
 .single-product-grid img {
@@ -408,7 +409,7 @@ footer .bottom .footer-description .email {
     font-family: roboto condensed;
     text-decoration: underline;
     font-size: 17px
-
+    cursor: pointer;
 }
 
 footer .bottom .footer-description  i {
